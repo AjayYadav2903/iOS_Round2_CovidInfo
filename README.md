@@ -16,3 +16,6 @@ Easy for separate unit testing and code is event-driven.
 2 - Chart -> Implemented HighChart Library for show the case recoverd, confirmed, deaths.(we can use more chart like PIchart, Barcharts etc)
 
 3 - Configration -> Xcode 12.2, Swift 5, iOS 13+
+
+4 - Added offline storage -> Save the items visited by the user to a local database and should be shown in
+Home Screen every time the user visits the App.
