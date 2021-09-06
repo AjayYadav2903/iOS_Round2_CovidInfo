@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-CovidInfo-CovidInfoUITests/Pods-CovidInfo-CovidInfoUITests-frameworks.sh
+${PODS_ROOT}/Highcharts/development/Highcharts.framework
+${BUILT_PRODUCTS_DIR}/PieCharts/PieCharts.framework

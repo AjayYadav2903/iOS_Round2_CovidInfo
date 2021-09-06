@@ -1,0 +1,37 @@
+//
+//  CountryDataModel.swift
+//  CovidInfo
+//
+//  Created by Ajay Yadav on 02/09/21.
+//
+
+import UIKit
+
+class CountryDataModel: NSObject {
+    
+    var isDataLoaded:((Bool)->Void)?
+    var arrCountryList:[Country] = []
+    
+    func getCountryList(urlStr:String){
+        ServerCommunication.getData(urlStr: urlStr) { data in
+            if let data = data as? Data{
+                self.parseData(data: data)
+            }
+        }
+    }
+    
+    func parseData(data:Data){
+        do{
+            arrCountryList = try JSONDecoder().decode([Country].self, from: data)
+            isDataLoaded?(true)
+        }
+        catch{
+            print(error.localizedDescription)
+        }
+    }
+    
+    
+    func heightForRowAtIndexPath()->CGFloat{
+        return 90.0
+    }
+}

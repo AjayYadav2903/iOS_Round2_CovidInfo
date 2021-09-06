@@ -1,0 +1,1171 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		DE253FFF71532979EAEFDFB5BE8947F7 /* Highcharts */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AF4F70716E2ABAD8F40EBC235F0E8912 /* Build configuration list for PBXAggregateTarget "Highcharts" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Highcharts;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		07EC05367FB06380F8534C2019A4B573 /* PieChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FB131181ED6FC1791296B5ABE47D54 /* PieChartDelegate.swift */; };
+		127991BED5243943054E61A83CE7A3A9 /* Pods-CovidInfo-CovidInfoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6388F641DBB661FFAB396D4C0DE5142E /* Pods-CovidInfo-CovidInfoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18B8C262593617A927666E1B87BB1CF4 /* PieChartLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54B5AA412F7D0C446CFB700953E5CB3 /* PieChartLayer.swift */; };
+		195E5CC3E2DC550B5664CD2BB6B906EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		35E79F1C94BDD1B519FE85A258560105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		3670E8DC1BCC469EBB327859E5DB62BC /* Pods-CovidInfo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5118A79B98B10CEAAD035D54D61C /* Pods-CovidInfo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3727D81A8E60CB1969513D03205F4D1F /* AlphaPieViewLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9F74FCA054051F1809899977A38D7A /* AlphaPieViewLayerAnimator.swift */; };
+		43AB80B86D7CF6649726D4208C69EF2F /* Pods-CovidInfoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4888F82DC1FA24C10C7B0C2807BBBA /* Pods-CovidInfoTests-dummy.m */; };
+		4F1482B381CE2F3CCC62015F22F2CD86 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEEFA7084348A72C003DB00C937B0BF /* PieChart.swift */; };
+		5FDBACE328D82B6557E164F4C21A7B1F /* PieCustomViewsLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85908E07D0069BD3EA06691BDB451C /* PieCustomViewsLayer.swift */; };
+		6D42FD4C06FBECD4D0076BA0F164E3D7 /* AlphaPieLineTextLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A698E1B5B146749B640954C35C9C98 /* AlphaPieLineTextLayerAnimator.swift */; };
+		6EE9D7885158A3625DF6A1DEED2F29C9 /* Pods-CovidInfoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B1B2FE26C82720CFC392F9CE4BE4D3 /* Pods-CovidInfoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78FAD6E2B3FE9DD871270AF82D20D4DA /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBBE88028F7260AB396F8616788C647 /* Globals.swift */; };
+		8212A7F7A077B7BA54407B631E570AA1 /* Pods-CovidInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A773E15359C5FBA2D7455C251DFC43C9 /* Pods-CovidInfo-dummy.m */; };
+		913AF8577C52A01F3C0DCAF27FDE9AA5 /* PieSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6D2F003AC2A86E91E6B50AE731BC3 /* PieSlice.swift */; };
+		945F66CC57EB589300296B053DE94D2C /* PieSliceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247864CB113441BE7DEA31A0D080CFB8 /* PieSliceLayer.swift */; };
+		9D42D95CF916C54F70AB417E50ABCFD2 /* PieLineTextLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D5BCBAF3592D8F55C3835BDD0E3942 /* PieLineTextLayerAnimator.swift */; };
+		A885151A6F1300266EDE677E27EA8CF7 /* PieSliceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DD2434D1844DE211FF7099BAA0AFF6 /* PieSliceModel.swift */; };
+		AF63525C26B16ECA99775FEEB5D9DAFB /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AB7A61985001F78D1D2A03A06A6D0A /* CGPoint.swift */; };
+		B03E8E2F62190B19257A70EAABA5B97C /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772B8D4D8ECDA2B6DC0FDCFB8708B228 /* Int.swift */; };
+		B1725D233634BC9BD8B886C3B95B6B54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		B2AC85E53FA4319F6FF7D0CC6BBFB40D /* PieViewLayerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0B60AAFDB6DBB0C1B7C244FFC4CE47 /* PieViewLayerAnimator.swift */; };
+		B63830D20569F70AE299464221634212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		BBAF931620A2C7B622EC073B2FA16F89 /* PieCharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C06DCE807252471C16119F428E49C65 /* PieCharts-dummy.m */; };
+		BCD6AA5DAAC2C1EF829F74DEC81D9308 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100E2C3C025973019AA598B0AD0A183E /* CGRect.swift */; };
+		C76BF61E4968CD16E92EC3F5A47A4F64 /* PieSliceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD73E19E3E313B67A124B188ABBDF2B2 /* PieSliceDelegate.swift */; };
+		C7C933DC152CA24EF034FCAB7E415372 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553F02396820467C46BFBDBFD5A82BB7 /* CoreGraphics.framework */; };
+		C8E0D25B4B31731E2D9AE57508C5458C /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70137DB3F0669DEA1DE9FA7B5EA002FC /* CGSize.swift */; };
+		CC6987F24ACB44122427F6F4647FA0A3 /* Pods-CovidInfo-CovidInfoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F569649BD9CB75A0F4569743E6D56B83 /* Pods-CovidInfo-CovidInfoUITests-dummy.m */; };
+		CD683A40B68E215866CEE0ED609C5EFD /* PieLineTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01259726FFEF6DFA196F1A8D19DCEF71 /* PieLineTextLayer.swift */; };
+		CFED1D8E117462229AD408C055556D88 /* PieSliceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E651369E47716538E9A15D82EEA763 /* PieSliceData.swift */; };
+		D63E22038D157AA162B92B8FD0AE3232 /* FloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B34DBEE3828D6CBDF6E0CC17986AA2 /* FloatingPoint.swift */; };
+		D77483E153D9327C337288531B48D3E6 /* PieChartLabelSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB76470E1A5DD963F1C7D5FA9DC8A9C /* PieChartLabelSettings.swift */; };
+		EC975F7502419A2CBAAEE9C4F98184EA /* PieCharts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBF69D794DDCEE177B4A1C9746F62D3F /* PieCharts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F416418C794FCA137962287221D2B15B /* PiePlainTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126B070139D58E59DB26ACA32E25F9C2 /* PiePlainTextLayer.swift */; };
+		FEA1695A80F40B06D71FD2F5C1D7AD0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC17E35C4C855B7DD30B7CFD8A28A0 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BD1638B929D127F4BEA15929001AEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE253FFF71532979EAEFDFB5BE8947F7;
+			remoteInfo = Highcharts;
+		};
+		4FCB72F6468B5C4E67CA28A309C563DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE253FFF71532979EAEFDFB5BE8947F7;
+			remoteInfo = Highcharts;
+		};
+		9A09154DA9E56AFC31ADAE564752A45A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5352E9F7E2BA40B729D6F4355D629ED5;
+			remoteInfo = PieCharts;
+		};
+		BE61E733D4896E8A2846A7F498E38CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5352E9F7E2BA40B729D6F4355D629ED5;
+			remoteInfo = PieCharts;
+		};
+		D9C471885BD6A22F2103DD9E8A675AAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77E565057440782969353F28952C457C;
+			remoteInfo = "Pods-CovidInfo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AB7A61985001F78D1D2A03A06A6D0A /* CGPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPoint.swift; path = PieCharts/Extensions/CGPoint.swift; sourceTree = "<group>"; };
+		01259726FFEF6DFA196F1A8D19DCEF71 /* PieLineTextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieLineTextLayer.swift; path = PieCharts/Layer/Impl/LineText/PieLineTextLayer.swift; sourceTree = "<group>"; };
+		0B13BDB94AB4E1184C34816291F8C417 /* Pods-CovidInfo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CovidInfo-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C9C34FC2AE02D4AD5C9E0E2DF7E7D92 /* Pods-CovidInfo-CovidInfoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CovidInfo-CovidInfoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0DBBE88028F7260AB396F8616788C647 /* Globals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Globals.swift; path = PieCharts/Util/Globals.swift; sourceTree = "<group>"; };
+		100E2C3C025973019AA598B0AD0A183E /* CGRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRect.swift; path = PieCharts/Extensions/CGRect.swift; sourceTree = "<group>"; };
+		126B070139D58E59DB26ACA32E25F9C2 /* PiePlainTextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PiePlainTextLayer.swift; path = PieCharts/Layer/Impl/PlainText/PiePlainTextLayer.swift; sourceTree = "<group>"; };
+		141C771D00B32327501B56425523D398 /* PieCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PieCharts.framework; path = PieCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1449ECE4721E20ED0A62B197A9636118 /* Pods-CovidInfo-CovidInfoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CovidInfo-CovidInfoUITests-Info.plist"; sourceTree = "<group>"; };
+		14DD2434D1844DE211FF7099BAA0AFF6 /* PieSliceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceModel.swift; path = PieCharts/Model/PieSliceModel.swift; sourceTree = "<group>"; };
+		15E651369E47716538E9A15D82EEA763 /* PieSliceData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceData.swift; path = PieCharts/Model/PieSliceData.swift; sourceTree = "<group>"; };
+		16F2D4E57D4C12E9A0EEA87A3D6BA371 /* Pods-CovidInfo-CovidInfoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CovidInfo-CovidInfoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C06DCE807252471C16119F428E49C65 /* PieCharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PieCharts-dummy.m"; sourceTree = "<group>"; };
+		1E76A4B50946153A710F29CE04A1CDB3 /* Highcharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Highcharts.debug.xcconfig; sourceTree = "<group>"; };
+		1EB518445693A22C2590DB56D3429968 /* Highcharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Highcharts.framework; path = development/Highcharts.framework; sourceTree = "<group>"; };
+		247864CB113441BE7DEA31A0D080CFB8 /* PieSliceLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceLayer.swift; path = PieCharts/Core/Slice/PieSliceLayer.swift; sourceTree = "<group>"; };
+		264F8A34EDE5AA67223FA6EECDD3B2B6 /* PieCharts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PieCharts-Info.plist"; sourceTree = "<group>"; };
+		2E4888F82DC1FA24C10C7B0C2807BBBA /* Pods-CovidInfoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CovidInfoTests-dummy.m"; sourceTree = "<group>"; };
+		33D5BCBAF3592D8F55C3835BDD0E3942 /* PieLineTextLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieLineTextLayerAnimator.swift; path = PieCharts/Layer/Impl/LineText/Anim/PieLineTextLayerAnimator.swift; sourceTree = "<group>"; };
+		45ADED5C9EF0F50A902B3FDA0A6227E5 /* PieCharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PieCharts-prefix.pch"; sourceTree = "<group>"; };
+		4A5C35B59D63EACA49453A4E73AB625D /* PieCharts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PieCharts.modulemap; sourceTree = "<group>"; };
+		4C2085CA708B428E1FF48950B9E762A1 /* Pods-CovidInfoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CovidInfoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E69AE8B9F2427B950701DB68CE4A6D1 /* Pods-CovidInfo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CovidInfo-Info.plist"; sourceTree = "<group>"; };
+		52C6D2F003AC2A86E91E6B50AE731BC3 /* PieSlice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSlice.swift; path = PieCharts/Core/Slice/PieSlice.swift; sourceTree = "<group>"; };
+		54CAF667D62E537863738CAB459122E3 /* Highcharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Highcharts.release.xcconfig; sourceTree = "<group>"; };
+		552DC8620B1F2723C7262D9E9AC15FAA /* Pods-CovidInfo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CovidInfo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		553F02396820467C46BFBDBFD5A82BB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		5BDE612AC03268F781E548D625F9EA84 /* PieCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PieCharts.debug.xcconfig; sourceTree = "<group>"; };
+		60CE5118A79B98B10CEAAD035D54D61C /* Pods-CovidInfo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CovidInfo-umbrella.h"; sourceTree = "<group>"; };
+		6388F641DBB661FFAB396D4C0DE5142E /* Pods-CovidInfo-CovidInfoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CovidInfo-CovidInfoUITests-umbrella.h"; sourceTree = "<group>"; };
+		68FB131181ED6FC1791296B5ABE47D54 /* PieChartDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartDelegate.swift; path = PieCharts/Core/Chart/PieChartDelegate.swift; sourceTree = "<group>"; };
+		69A698E1B5B146749B640954C35C9C98 /* AlphaPieLineTextLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaPieLineTextLayerAnimator.swift; path = PieCharts/Layer/Impl/LineText/Anim/AlphaPieLineTextLayerAnimator.swift; sourceTree = "<group>"; };
+		6CFCB8E35FA1963B2C137CB7935EB73F /* Pods-CovidInfo-CovidInfoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CovidInfo-CovidInfoUITests.modulemap"; sourceTree = "<group>"; };
+		70137DB3F0669DEA1DE9FA7B5EA002FC /* CGSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSize.swift; path = PieCharts/Extensions/CGSize.swift; sourceTree = "<group>"; };
+		772B8D4D8ECDA2B6DC0FDCFB8708B228 /* Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Int.swift; path = PieCharts/Extensions/Int.swift; sourceTree = "<group>"; };
+		7B23095CBDB3BA7F0633413FF1D00E62 /* Pods_CovidInfo_CovidInfoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CovidInfo_CovidInfoUITests.framework; path = "Pods-CovidInfo-CovidInfoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB0CAFA11EBE7423EC1354B00E8BC2F /* Pods-CovidInfoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CovidInfoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CEEFA7084348A72C003DB00C937B0BF /* PieChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChart.swift; path = PieCharts/Core/Chart/PieChart.swift; sourceTree = "<group>"; };
+		86482EC0A0F760E462B9BC30B981C1D8 /* Pods-CovidInfoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CovidInfoTests.modulemap"; sourceTree = "<group>"; };
+		8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		95B34DBEE3828D6CBDF6E0CC17986AA2 /* FloatingPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingPoint.swift; path = PieCharts/Extensions/FloatingPoint.swift; sourceTree = "<group>"; };
+		9A49867D8644FB93947A93A4180C9545 /* Pods-CovidInfoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CovidInfoTests-Info.plist"; sourceTree = "<group>"; };
+		9CB76470E1A5DD963F1C7D5FA9DC8A9C /* PieChartLabelSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartLabelSettings.swift; path = PieCharts/Layer/Impl/Common/PieChartLabelSettings.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A05A47DAAE4284D9F3269607A9D84C86 /* Pods-CovidInfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CovidInfo.modulemap"; sourceTree = "<group>"; };
+		A0BD37F9F958362590B6FCE58A4501AC /* Pods-CovidInfo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CovidInfo-frameworks.sh"; sourceTree = "<group>"; };
+		A773E15359C5FBA2D7455C251DFC43C9 /* Pods-CovidInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CovidInfo-dummy.m"; sourceTree = "<group>"; };
+		B2844CCB96DA3CF9CF3E2977C243EDE9 /* Pods-CovidInfo-CovidInfoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CovidInfo-CovidInfoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BBF69D794DDCEE177B4A1C9746F62D3F /* PieCharts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PieCharts-umbrella.h"; sourceTree = "<group>"; };
+		C0B1B2FE26C82720CFC392F9CE4BE4D3 /* Pods-CovidInfoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CovidInfoTests-umbrella.h"; sourceTree = "<group>"; };
+		C0B2E6E66377DC627A8A9730F86E3A87 /* PieCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PieCharts.release.xcconfig; sourceTree = "<group>"; };
+		C4A1EE04544A6373EFD8BFCDFFAFCCAA /* Pods_CovidInfoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CovidInfoTests.framework; path = "Pods-CovidInfoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9087D269710A21B483334DB3CB235E9 /* Pods-CovidInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CovidInfo.release.xcconfig"; sourceTree = "<group>"; };
+		CD73E19E3E313B67A124B188ABBDF2B2 /* PieSliceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceDelegate.swift; path = PieCharts/Core/Slice/PieSliceDelegate.swift; sourceTree = "<group>"; };
+		CE0B60AAFDB6DBB0C1B7C244FFC4CE47 /* PieViewLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieViewLayerAnimator.swift; path = PieCharts/Layer/Impl/View/Anim/PieViewLayerAnimator.swift; sourceTree = "<group>"; };
+		D180C93EC664AA703E3BF7021E306237 /* Pods-CovidInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CovidInfo.debug.xcconfig"; sourceTree = "<group>"; };
+		D54B5AA412F7D0C446CFB700953E5CB3 /* PieChartLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartLayer.swift; path = PieCharts/Layer/PieChartLayer.swift; sourceTree = "<group>"; };
+		D66ED3B4FA97128ABA35E6D097FCB221 /* Pods-CovidInfoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CovidInfoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC9F74FCA054051F1809899977A38D7A /* AlphaPieViewLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaPieViewLayerAnimator.swift; path = PieCharts/Layer/Impl/View/Anim/AlphaPieViewLayerAnimator.swift; sourceTree = "<group>"; };
+		DE8DCAB00062BF7335B62F61D4A5914E /* Pods_CovidInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CovidInfo.framework; path = "Pods-CovidInfo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFAC17E35C4C855B7DD30B7CFD8A28A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F0BB52811BCFC627A4DC6D80841D67A9 /* Pods-CovidInfo-CovidInfoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CovidInfo-CovidInfoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2BA1D4780DA96D2D6C45216CF350A59 /* Pods-CovidInfoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CovidInfoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F569649BD9CB75A0F4569743E6D56B83 /* Pods-CovidInfo-CovidInfoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CovidInfo-CovidInfoUITests-dummy.m"; sourceTree = "<group>"; };
+		F8E9AB1EBBD82C538DC4BFE7B71B18D5 /* Pods-CovidInfo-CovidInfoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CovidInfo-CovidInfoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FE85908E07D0069BD3EA06691BDB451C /* PieCustomViewsLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieCustomViewsLayer.swift; path = PieCharts/Layer/Impl/View/PieCustomViewsLayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BBE64F6F886554984AB0F76C27A6F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63830D20569F70AE299464221634212 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574627DC5F5D6E2D9E2E59BC592B7DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195E5CC3E2DC550B5664CD2BB6B906EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3A16C00DAEFF4A9C9E25BF2A107BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E79F1C94BDD1B519FE85A258560105 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4587802A9E6EC1DA0596665E3E11F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C933DC152CA24EF034FCAB7E415372 /* CoreGraphics.framework in Frameworks */,
+				B1725D233634BC9BD8B886C3B95B6B54 /* Foundation.framework in Frameworks */,
+				FEA1695A80F40B06D71FD2F5C1D7AD0C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018ED67D441816E3047E585FE9CFA7B3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB60339F77F51507644C09F42FFBE9F4 /* Pods-CovidInfo */,
+				3C92DD4261F02867388D57E81E35A136 /* Pods-CovidInfo-CovidInfoUITests */,
+				06E90C01941051F8E8B865CA50823208 /* Pods-CovidInfoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20D8528256A7AF28D53631225E57465A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06E90C01941051F8E8B865CA50823208 /* Pods-CovidInfoTests */ = {
+			isa = PBXGroup;
+			children = (
+				86482EC0A0F760E462B9BC30B981C1D8 /* Pods-CovidInfoTests.modulemap */,
+				7CB0CAFA11EBE7423EC1354B00E8BC2F /* Pods-CovidInfoTests-acknowledgements.markdown */,
+				D66ED3B4FA97128ABA35E6D097FCB221 /* Pods-CovidInfoTests-acknowledgements.plist */,
+				2E4888F82DC1FA24C10C7B0C2807BBBA /* Pods-CovidInfoTests-dummy.m */,
+				9A49867D8644FB93947A93A4180C9545 /* Pods-CovidInfoTests-Info.plist */,
+				C0B1B2FE26C82720CFC392F9CE4BE4D3 /* Pods-CovidInfoTests-umbrella.h */,
+				4C2085CA708B428E1FF48950B9E762A1 /* Pods-CovidInfoTests.debug.xcconfig */,
+				F2BA1D4780DA96D2D6C45216CF350A59 /* Pods-CovidInfoTests.release.xcconfig */,
+			);
+			name = "Pods-CovidInfoTests";
+			path = "Target Support Files/Pods-CovidInfoTests";
+			sourceTree = "<group>";
+		};
+		20D8528256A7AF28D53631225E57465A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				553F02396820467C46BFBDBFD5A82BB7 /* CoreGraphics.framework */,
+				8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */,
+				DFAC17E35C4C855B7DD30B7CFD8A28A0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3BBF9300A89B3B279490CCEB8500CF8B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E76A4B50946153A710F29CE04A1CDB3 /* Highcharts.debug.xcconfig */,
+				54CAF667D62E537863738CAB459122E3 /* Highcharts.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Highcharts";
+			sourceTree = "<group>";
+		};
+		3C92DD4261F02867388D57E81E35A136 /* Pods-CovidInfo-CovidInfoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CFCB8E35FA1963B2C137CB7935EB73F /* Pods-CovidInfo-CovidInfoUITests.modulemap */,
+				16F2D4E57D4C12E9A0EEA87A3D6BA371 /* Pods-CovidInfo-CovidInfoUITests-acknowledgements.markdown */,
+				F0BB52811BCFC627A4DC6D80841D67A9 /* Pods-CovidInfo-CovidInfoUITests-acknowledgements.plist */,
+				F569649BD9CB75A0F4569743E6D56B83 /* Pods-CovidInfo-CovidInfoUITests-dummy.m */,
+				F8E9AB1EBBD82C538DC4BFE7B71B18D5 /* Pods-CovidInfo-CovidInfoUITests-frameworks.sh */,
+				1449ECE4721E20ED0A62B197A9636118 /* Pods-CovidInfo-CovidInfoUITests-Info.plist */,
+				6388F641DBB661FFAB396D4C0DE5142E /* Pods-CovidInfo-CovidInfoUITests-umbrella.h */,
+				0C9C34FC2AE02D4AD5C9E0E2DF7E7D92 /* Pods-CovidInfo-CovidInfoUITests.debug.xcconfig */,
+				B2844CCB96DA3CF9CF3E2977C243EDE9 /* Pods-CovidInfo-CovidInfoUITests.release.xcconfig */,
+			);
+			name = "Pods-CovidInfo-CovidInfoUITests";
+			path = "Target Support Files/Pods-CovidInfo-CovidInfoUITests";
+			sourceTree = "<group>";
+		};
+		785E29E7E1BE628B238A129C9F7D1022 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A5C35B59D63EACA49453A4E73AB625D /* PieCharts.modulemap */,
+				1C06DCE807252471C16119F428E49C65 /* PieCharts-dummy.m */,
+				264F8A34EDE5AA67223FA6EECDD3B2B6 /* PieCharts-Info.plist */,
+				45ADED5C9EF0F50A902B3FDA0A6227E5 /* PieCharts-prefix.pch */,
+				BBF69D794DDCEE177B4A1C9746F62D3F /* PieCharts-umbrella.h */,
+				5BDE612AC03268F781E548D625F9EA84 /* PieCharts.debug.xcconfig */,
+				C0B2E6E66377DC627A8A9730F86E3A87 /* PieCharts.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PieCharts";
+			sourceTree = "<group>";
+		};
+		78C15681DA0BB58069D763CE6C7DA6A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EB518445693A22C2590DB56D3429968 /* Highcharts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2F1168CFCA359C865A1C1A786C9C002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				141C771D00B32327501B56425523D398 /* PieCharts.framework */,
+				DE8DCAB00062BF7335B62F61D4A5914E /* Pods_CovidInfo.framework */,
+				7B23095CBDB3BA7F0633413FF1D00E62 /* Pods_CovidInfo_CovidInfoUITests.framework */,
+				C4A1EE04544A6373EFD8BFCDFFAFCCAA /* Pods_CovidInfoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB60339F77F51507644C09F42FFBE9F4 /* Pods-CovidInfo */ = {
+			isa = PBXGroup;
+			children = (
+				A05A47DAAE4284D9F3269607A9D84C86 /* Pods-CovidInfo.modulemap */,
+				552DC8620B1F2723C7262D9E9AC15FAA /* Pods-CovidInfo-acknowledgements.markdown */,
+				0B13BDB94AB4E1184C34816291F8C417 /* Pods-CovidInfo-acknowledgements.plist */,
+				A773E15359C5FBA2D7455C251DFC43C9 /* Pods-CovidInfo-dummy.m */,
+				A0BD37F9F958362590B6FCE58A4501AC /* Pods-CovidInfo-frameworks.sh */,
+				4E69AE8B9F2427B950701DB68CE4A6D1 /* Pods-CovidInfo-Info.plist */,
+				60CE5118A79B98B10CEAAD035D54D61C /* Pods-CovidInfo-umbrella.h */,
+				D180C93EC664AA703E3BF7021E306237 /* Pods-CovidInfo.debug.xcconfig */,
+				C9087D269710A21B483334DB3CB235E9 /* Pods-CovidInfo.release.xcconfig */,
+			);
+			name = "Pods-CovidInfo";
+			path = "Target Support Files/Pods-CovidInfo";
+			sourceTree = "<group>";
+		};
+		CE4DC1034B09710B39ECFAFE179218D2 /* Highcharts */ = {
+			isa = PBXGroup;
+			children = (
+				78C15681DA0BB58069D763CE6C7DA6A4 /* Frameworks */,
+				3BBF9300A89B3B279490CCEB8500CF8B /* Support Files */,
+			);
+			name = Highcharts;
+			path = Highcharts;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				FE18D307A168323920BF93844AF79DC0 /* Pods */,
+				A2F1168CFCA359C865A1C1A786C9C002 /* Products */,
+				018ED67D441816E3047E585FE9CFA7B3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F8EBBE4CC0ECFD7D80416569D22222A0 /* PieCharts */ = {
+			isa = PBXGroup;
+			children = (
+				69A698E1B5B146749B640954C35C9C98 /* AlphaPieLineTextLayerAnimator.swift */,
+				DC9F74FCA054051F1809899977A38D7A /* AlphaPieViewLayerAnimator.swift */,
+				00AB7A61985001F78D1D2A03A06A6D0A /* CGPoint.swift */,
+				100E2C3C025973019AA598B0AD0A183E /* CGRect.swift */,
+				70137DB3F0669DEA1DE9FA7B5EA002FC /* CGSize.swift */,
+				95B34DBEE3828D6CBDF6E0CC17986AA2 /* FloatingPoint.swift */,
+				0DBBE88028F7260AB396F8616788C647 /* Globals.swift */,
+				772B8D4D8ECDA2B6DC0FDCFB8708B228 /* Int.swift */,
+				7CEEFA7084348A72C003DB00C937B0BF /* PieChart.swift */,
+				68FB131181ED6FC1791296B5ABE47D54 /* PieChartDelegate.swift */,
+				9CB76470E1A5DD963F1C7D5FA9DC8A9C /* PieChartLabelSettings.swift */,
+				D54B5AA412F7D0C446CFB700953E5CB3 /* PieChartLayer.swift */,
+				FE85908E07D0069BD3EA06691BDB451C /* PieCustomViewsLayer.swift */,
+				01259726FFEF6DFA196F1A8D19DCEF71 /* PieLineTextLayer.swift */,
+				33D5BCBAF3592D8F55C3835BDD0E3942 /* PieLineTextLayerAnimator.swift */,
+				126B070139D58E59DB26ACA32E25F9C2 /* PiePlainTextLayer.swift */,
+				52C6D2F003AC2A86E91E6B50AE731BC3 /* PieSlice.swift */,
+				15E651369E47716538E9A15D82EEA763 /* PieSliceData.swift */,
+				CD73E19E3E313B67A124B188ABBDF2B2 /* PieSliceDelegate.swift */,
+				247864CB113441BE7DEA31A0D080CFB8 /* PieSliceLayer.swift */,
+				14DD2434D1844DE211FF7099BAA0AFF6 /* PieSliceModel.swift */,
+				CE0B60AAFDB6DBB0C1B7C244FFC4CE47 /* PieViewLayerAnimator.swift */,
+				785E29E7E1BE628B238A129C9F7D1022 /* Support Files */,
+			);
+			name = PieCharts;
+			path = PieCharts;
+			sourceTree = "<group>";
+		};
+		FE18D307A168323920BF93844AF79DC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE4DC1034B09710B39ECFAFE179218D2 /* Highcharts */,
+				F8EBBE4CC0ECFD7D80416569D22222A0 /* PieCharts */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		084FE38C5CEC37238D8DD287F5C1088C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE9D7885158A3625DF6A1DEED2F29C9 /* Pods-CovidInfoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432321A480B3AB55727C2A13179261F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3670E8DC1BCC469EBB327859E5DB62BC /* Pods-CovidInfo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6274D145B71C490DD50B2CCBCC80A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127991BED5243943054E61A83CE7A3A9 /* Pods-CovidInfo-CovidInfoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15EAF85C124A4F3537985C41149C87C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC975F7502419A2CBAAEE9C4F98184EA /* PieCharts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06B6692152F0058A2E85522136BD8DB9 /* Pods-CovidInfo-CovidInfoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5AA06BF4AB3A768A8F910FCE2D045A3 /* Build configuration list for PBXNativeTarget "Pods-CovidInfo-CovidInfoUITests" */;
+			buildPhases = (
+				4B6274D145B71C490DD50B2CCBCC80A8 /* Headers */,
+				166F58388F913B7785DBBDB348B055E4 /* Sources */,
+				AE3A16C00DAEFF4A9C9E25BF2A107BB4 /* Frameworks */,
+				0E6E58E08EDF1A6DDF98D69EEDB48DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3675F357AB7109F33BDA5DFB671261E3 /* PBXTargetDependency */,
+				5F520D1F5CB01A540B4FBFD075B98DB8 /* PBXTargetDependency */,
+			);
+			name = "Pods-CovidInfo-CovidInfoUITests";
+			productName = "Pods-CovidInfo-CovidInfoUITests";
+			productReference = 7B23095CBDB3BA7F0633413FF1D00E62 /* Pods_CovidInfo_CovidInfoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5352E9F7E2BA40B729D6F4355D629ED5 /* PieCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA41CBA4B931F1A9E7DE3E4D1E69EC9 /* Build configuration list for PBXNativeTarget "PieCharts" */;
+			buildPhases = (
+				F15EAF85C124A4F3537985C41149C87C /* Headers */,
+				438196256BCAB393BC19E79EAC70B86C /* Sources */,
+				F4587802A9E6EC1DA0596665E3E11F18 /* Frameworks */,
+				79E684FEA95D6A26F12A60AF88F1B2E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PieCharts;
+			productName = PieCharts;
+			productReference = 141C771D00B32327501B56425523D398 /* PieCharts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7638A8E421F1B023E95D808378F52B44 /* Pods-CovidInfoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CEC46F3C3802780BC9F23F90B4B7EB4 /* Build configuration list for PBXNativeTarget "Pods-CovidInfoTests" */;
+			buildPhases = (
+				084FE38C5CEC37238D8DD287F5C1088C /* Headers */,
+				068841A7ED197C5B6D4DEB258B1907BE /* Sources */,
+				574627DC5F5D6E2D9E2E59BC592B7DEE /* Frameworks */,
+				9F984A3944BFFBE2705C017CA631BAAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A7A156BF897770763A2DFB4B422CE46 /* PBXTargetDependency */,
+			);
+			name = "Pods-CovidInfoTests";
+			productName = "Pods-CovidInfoTests";
+			productReference = C4A1EE04544A6373EFD8BFCDFFAFCCAA /* Pods_CovidInfoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77E565057440782969353F28952C457C /* Pods-CovidInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88E1AB44F745E2D81C26719A4773F05 /* Build configuration list for PBXNativeTarget "Pods-CovidInfo" */;
+			buildPhases = (
+				432321A480B3AB55727C2A13179261F2 /* Headers */,
+				695B4D1B9992221A5D2505725404A003 /* Sources */,
+				2BBE64F6F886554984AB0F76C27A6F95 /* Frameworks */,
+				EA0573BCD653AA8506838ECF53832678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48F1EFD8A695E4D1BB01132D5610DFF8 /* PBXTargetDependency */,
+				1513751FD12266FCC2BB3B2E98FFA0F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-CovidInfo";
+			productName = "Pods-CovidInfo";
+			productReference = DE8DCAB00062BF7335B62F61D4A5914E /* Pods_CovidInfo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A2F1168CFCA359C865A1C1A786C9C002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE253FFF71532979EAEFDFB5BE8947F7 /* Highcharts */,
+				5352E9F7E2BA40B729D6F4355D629ED5 /* PieCharts */,
+				77E565057440782969353F28952C457C /* Pods-CovidInfo */,
+				06B6692152F0058A2E85522136BD8DB9 /* Pods-CovidInfo-CovidInfoUITests */,
+				7638A8E421F1B023E95D808378F52B44 /* Pods-CovidInfoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E6E58E08EDF1A6DDF98D69EEDB48DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E684FEA95D6A26F12A60AF88F1B2E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F984A3944BFFBE2705C017CA631BAAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0573BCD653AA8506838ECF53832678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		068841A7ED197C5B6D4DEB258B1907BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AB80B86D7CF6649726D4208C69EF2F /* Pods-CovidInfoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166F58388F913B7785DBBDB348B055E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6987F24ACB44122427F6F4647FA0A3 /* Pods-CovidInfo-CovidInfoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438196256BCAB393BC19E79EAC70B86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D42FD4C06FBECD4D0076BA0F164E3D7 /* AlphaPieLineTextLayerAnimator.swift in Sources */,
+				3727D81A8E60CB1969513D03205F4D1F /* AlphaPieViewLayerAnimator.swift in Sources */,
+				AF63525C26B16ECA99775FEEB5D9DAFB /* CGPoint.swift in Sources */,
+				BCD6AA5DAAC2C1EF829F74DEC81D9308 /* CGRect.swift in Sources */,
+				C8E0D25B4B31731E2D9AE57508C5458C /* CGSize.swift in Sources */,
+				D63E22038D157AA162B92B8FD0AE3232 /* FloatingPoint.swift in Sources */,
+				78FAD6E2B3FE9DD871270AF82D20D4DA /* Globals.swift in Sources */,
+				B03E8E2F62190B19257A70EAABA5B97C /* Int.swift in Sources */,
+				4F1482B381CE2F3CCC62015F22F2CD86 /* PieChart.swift in Sources */,
+				07EC05367FB06380F8534C2019A4B573 /* PieChartDelegate.swift in Sources */,
+				D77483E153D9327C337288531B48D3E6 /* PieChartLabelSettings.swift in Sources */,
+				18B8C262593617A927666E1B87BB1CF4 /* PieChartLayer.swift in Sources */,
+				BBAF931620A2C7B622EC073B2FA16F89 /* PieCharts-dummy.m in Sources */,
+				5FDBACE328D82B6557E164F4C21A7B1F /* PieCustomViewsLayer.swift in Sources */,
+				CD683A40B68E215866CEE0ED609C5EFD /* PieLineTextLayer.swift in Sources */,
+				9D42D95CF916C54F70AB417E50ABCFD2 /* PieLineTextLayerAnimator.swift in Sources */,
+				F416418C794FCA137962287221D2B15B /* PiePlainTextLayer.swift in Sources */,
+				913AF8577C52A01F3C0DCAF27FDE9AA5 /* PieSlice.swift in Sources */,
+				CFED1D8E117462229AD408C055556D88 /* PieSliceData.swift in Sources */,
+				C76BF61E4968CD16E92EC3F5A47A4F64 /* PieSliceDelegate.swift in Sources */,
+				945F66CC57EB589300296B053DE94D2C /* PieSliceLayer.swift in Sources */,
+				A885151A6F1300266EDE677E27EA8CF7 /* PieSliceModel.swift in Sources */,
+				B2AC85E53FA4319F6FF7D0CC6BBFB40D /* PieViewLayerAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695B4D1B9992221A5D2505725404A003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8212A7F7A077B7BA54407B631E570AA1 /* Pods-CovidInfo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A7A156BF897770763A2DFB4B422CE46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CovidInfo";
+			target = 77E565057440782969353F28952C457C /* Pods-CovidInfo */;
+			targetProxy = D9C471885BD6A22F2103DD9E8A675AAD /* PBXContainerItemProxy */;
+		};
+		1513751FD12266FCC2BB3B2E98FFA0F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PieCharts;
+			target = 5352E9F7E2BA40B729D6F4355D629ED5 /* PieCharts */;
+			targetProxy = 9A09154DA9E56AFC31ADAE564752A45A /* PBXContainerItemProxy */;
+		};
+		3675F357AB7109F33BDA5DFB671261E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Highcharts;
+			target = DE253FFF71532979EAEFDFB5BE8947F7 /* Highcharts */;
+			targetProxy = 4FCB72F6468B5C4E67CA28A309C563DD /* PBXContainerItemProxy */;
+		};
+		48F1EFD8A695E4D1BB01132D5610DFF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Highcharts;
+			target = DE253FFF71532979EAEFDFB5BE8947F7 /* Highcharts */;
+			targetProxy = 2BD1638B929D127F4BEA15929001AEAE /* PBXContainerItemProxy */;
+		};
+		5F520D1F5CB01A540B4FBFD075B98DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PieCharts;
+			target = 5352E9F7E2BA40B729D6F4355D629ED5 /* PieCharts */;
+			targetProxy = BE61E733D4896E8A2846A7F498E38CFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B3A85281298E6C6A1D0EB4C3A4E423E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2085CA708B428E1FF48950B9E762A1 /* Pods-CovidInfoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CovidInfoTests/Pods-CovidInfoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CovidInfoTests/Pods-CovidInfoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2BDC8C49EBDE07D7BA9119971818C2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B2E6E66377DC627A8A9730F86E3A87 /* PieCharts.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PieCharts/PieCharts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PieCharts/PieCharts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PieCharts/PieCharts.modulemap";
+				PRODUCT_MODULE_NAME = PieCharts;
+				PRODUCT_NAME = PieCharts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		371AEE6EA4FCB2AF3FFEAF9384DFFAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDE612AC03268F781E548D625F9EA84 /* PieCharts.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PieCharts/PieCharts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PieCharts/PieCharts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PieCharts/PieCharts.modulemap";
+				PRODUCT_MODULE_NAME = PieCharts;
+				PRODUCT_NAME = PieCharts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38026674474DDA698BE3415F2EEB27C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9C34FC2AE02D4AD5C9E0E2DF7E7D92 /* Pods-CovidInfo-CovidInfoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CovidInfo-CovidInfoUITests/Pods-CovidInfo-CovidInfoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CovidInfo-CovidInfoUITests/Pods-CovidInfo-CovidInfoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BCDC8B8C3120D62EB85FB44E24A43E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9087D269710A21B483334DB3CB235E9 /* Pods-CovidInfo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CovidInfo/Pods-CovidInfo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CovidInfo/Pods-CovidInfo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5144355B43C208FEDF88C05FD32082FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BA1D4780DA96D2D6C45216CF350A59 /* Pods-CovidInfoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CovidInfoTests/Pods-CovidInfoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CovidInfoTests/Pods-CovidInfoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F18B698E7B25D9E7418DDFD563AB762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E76A4B50946153A710F29CE04A1CDB3 /* Highcharts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67A1F69A1676DE2359B23CC74D4CB28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54CAF667D62E537863738CAB459122E3 /* Highcharts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B768B7E55180390305C461C0A3CE0EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2844CCB96DA3CF9CF3E2977C243EDE9 /* Pods-CovidInfo-CovidInfoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CovidInfo-CovidInfoUITests/Pods-CovidInfo-CovidInfoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CovidInfo-CovidInfoUITests/Pods-CovidInfo-CovidInfoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F9DA0DB28D0EA4967D85A3D210B9A5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D180C93EC664AA703E3BF7021E306237 /* Pods-CovidInfo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CovidInfo/Pods-CovidInfo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CovidInfo/Pods-CovidInfo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CEC46F3C3802780BC9F23F90B4B7EB4 /* Build configuration list for PBXNativeTarget "Pods-CovidInfoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3A85281298E6C6A1D0EB4C3A4E423E /* Debug */,
+				5144355B43C208FEDF88C05FD32082FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA41CBA4B931F1A9E7DE3E4D1E69EC9 /* Build configuration list for PBXNativeTarget "PieCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371AEE6EA4FCB2AF3FFEAF9384DFFAA3 /* Debug */,
+				2BDC8C49EBDE07D7BA9119971818C2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5AA06BF4AB3A768A8F910FCE2D045A3 /* Build configuration list for PBXNativeTarget "Pods-CovidInfo-CovidInfoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38026674474DDA698BE3415F2EEB27C4 /* Debug */,
+				B768B7E55180390305C461C0A3CE0EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4F70716E2ABAD8F40EBC235F0E8912 /* Build configuration list for PBXAggregateTarget "Highcharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F18B698E7B25D9E7418DDFD563AB762 /* Debug */,
+				67A1F69A1676DE2359B23CC74D4CB28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88E1AB44F745E2D81C26719A4773F05 /* Build configuration list for PBXNativeTarget "Pods-CovidInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9DA0DB28D0EA4967D85A3D210B9A5EF /* Debug */,
+				4BCDC8B8C3120D62EB85FB44E24A43E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

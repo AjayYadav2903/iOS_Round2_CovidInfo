@@ -1,0 +1,20 @@
+PODS:
+  - Highcharts (9.0.1)
+  - PieCharts (0.0.7)
+
+DEPENDENCIES:
+  - Highcharts (~> 9.0.1)
+  - PieCharts
+
+SPEC REPOS:
+  trunk:
+    - Highcharts
+    - PieCharts
+
+SPEC CHECKSUMS:
+  Highcharts: 58d7f907368460125acaeac27df091eb84f3fd00
+  PieCharts: 30e50dfa7dc19e5b84e9878d32089673ef5d0453
+
+PODFILE CHECKSUM: da29f01a714e667d08b4474bbed3114bd6a09491
+
+COCOAPODS: 1.10.2

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CountryListVC" customModule="CovidInfo" customModuleProvider="target">
+            <connections>
+                <outlet property="searchBar" destination="I8S-tg-oDZ" id="b58-ph-FwT"/>
+                <outlet property="tblList" destination="CrP-3g-Bxv" id="qMu-hp-4Yb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JBB-cD-vgA">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <searchBar contentMode="redraw" placeholder="search for city names" translatesAutoresizingMaskIntoConstraints="NO" id="I8S-tg-oDZ">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="4DU-BB-N3Z"/>
+                                <constraint firstAttribute="height" constant="44" id="wPa-dR-ial"/>
+                            </constraints>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="elW-Hi-uJ7"/>
+                            </connections>
+                        </searchBar>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CrP-3g-Bxv">
+                            <rect key="frame" x="0.0" y="44" width="414" height="724"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </tableView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="DgW-jr-uiZ">
+                            <rect key="frame" x="5" y="768" width="404" height="45"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAM-Tt-RJb">
+                                    <rect key="frame" x="0.0" y="0.0" width="199.5" height="45"/>
+                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                    <state key="normal" title="Fetch Country">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnFetchAction:" destination="-1" eventType="touchUpInside" id="V54-ke-edo"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWQ-dc-mIV">
+                                    <rect key="frame" x="204.5" y="0.0" width="199.5" height="45"/>
+                                    <color key="backgroundColor" red="0.20404571290000001" green="1" blue="0.21938562389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                    <state key="normal" title="Clear">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnDelete:" destination="-1" eventType="touchUpInside" id="IT8-gs-mgD"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="hd8-Sp-Gox"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="DgW-jr-uiZ" secondAttribute="bottom" constant="5" id="IXH-xt-bKG"/>
+                        <constraint firstItem="I8S-tg-oDZ" firstAttribute="leading" secondItem="JBB-cD-vgA" secondAttribute="leading" id="M1f-CA-Gbp"/>
+                        <constraint firstItem="CrP-3g-Bxv" firstAttribute="leading" secondItem="JBB-cD-vgA" secondAttribute="leading" id="ZgE-qn-ZBn"/>
+                        <constraint firstAttribute="trailing" secondItem="DgW-jr-uiZ" secondAttribute="trailing" constant="5" id="boZ-WT-Rc1"/>
+                        <constraint firstItem="DgW-jr-uiZ" firstAttribute="top" secondItem="CrP-3g-Bxv" secondAttribute="bottom" id="fxY-er-Vd3"/>
+                        <constraint firstItem="I8S-tg-oDZ" firstAttribute="top" secondItem="JBB-cD-vgA" secondAttribute="top" id="lYR-mi-INF"/>
+                        <constraint firstItem="DgW-jr-uiZ" firstAttribute="leading" secondItem="JBB-cD-vgA" secondAttribute="leading" constant="5" id="mhp-aq-bVc"/>
+                        <constraint firstItem="CrP-3g-Bxv" firstAttribute="top" secondItem="I8S-tg-oDZ" secondAttribute="bottom" id="o60-q5-vYL"/>
+                        <constraint firstAttribute="trailing" secondItem="CrP-3g-Bxv" secondAttribute="trailing" id="pKK-lH-DjF"/>
+                        <constraint firstAttribute="trailing" secondItem="I8S-tg-oDZ" secondAttribute="trailing" id="u4e-g0-qZs"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JBB-cD-vgA" secondAttribute="trailing" id="0Ps-ht-ezX"/>
+                <constraint firstItem="JBB-cD-vgA" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="9XN-NS-RWx"/>
+                <constraint firstItem="JBB-cD-vgA" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="JSE-Fh-Y7S"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="JBB-cD-vgA" secondAttribute="bottom" id="rDU-4F-2f0"/>
+            </constraints>
+            <point key="canvasLocation" x="-359.4202898550725" y="136.60714285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
