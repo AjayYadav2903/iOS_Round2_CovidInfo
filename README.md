@@ -1,0 +1,1 @@
+# iOS_Round2_CovidInfo
