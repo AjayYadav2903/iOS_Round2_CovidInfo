@@ -35,6 +35,8 @@
 		79E9CB0126E4C6DC00CFFFA3 /* CountryListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E9CAEE26E4C6DB00CFFFA3 /* CountryListCell.xib */; };
 		79E9CB0226E4C6DC00CFFFA3 /* CountryDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E9CAF026E4C6DB00CFFFA3 /* CountryDataModel.swift */; };
 		79E9CB0326E4C6DC00CFFFA3 /* CountryWiseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E9CAF126E4C6DB00CFFFA3 /* CountryWiseDataModel.swift */; };
+		79E9CBA926E5ECB600CFFFA3 /* CountryOffline+CoreDataClass copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E9CBA726E5ECB600CFFFA3 /* CountryOffline+CoreDataClass copy.swift */; };
+		79E9CBAA26E5ECB600CFFFA3 /* CountryOffline+CoreDataProperties copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E9CBA826E5ECB600CFFFA3 /* CountryOffline+CoreDataProperties copy.swift */; };
 		8F66FF8F297D50BC468270D5 /* Pods_CovidInfoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EDB5B3EC6A3733FF0DFA818 /* Pods_CovidInfoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +95,8 @@
 		79E9CAEE26E4C6DB00CFFFA3 /* CountryListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryListCell.xib; sourceTree = "<group>"; };
 		79E9CAF026E4C6DB00CFFFA3 /* CountryDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDataModel.swift; sourceTree = "<group>"; };
 		79E9CAF126E4C6DB00CFFFA3 /* CountryWiseDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryWiseDataModel.swift; sourceTree = "<group>"; };
+		79E9CBA726E5ECB600CFFFA3 /* CountryOffline+CoreDataClass copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CountryOffline+CoreDataClass copy.swift"; sourceTree = "<group>"; };
+		79E9CBA826E5ECB600CFFFA3 /* CountryOffline+CoreDataProperties copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CountryOffline+CoreDataProperties copy.swift"; sourceTree = "<group>"; };
 		9F58797191E539BB8D6F1C3C /* Pods-CovidInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidInfo.debug.xcconfig"; path = "Target Support Files/Pods-CovidInfo/Pods-CovidInfo.debug.xcconfig"; sourceTree = "<group>"; };
 		A9BA6AA9DA874CF3748A3796 /* Pods-CovidInfoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidInfoTests.debug.xcconfig"; path = "Target Support Files/Pods-CovidInfoTests/Pods-CovidInfoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD479D463EAA77EF83B576DB /* Pods-CovidInfoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidInfoTests.release.xcconfig"; path = "Target Support Files/Pods-CovidInfoTests/Pods-CovidInfoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 		79E9C93926E0AF1E00CFFFA3 /* CovidInfo */ = {
 			isa = PBXGroup;
 			children = (
+				79E9CB3D26E5E71000CFFFA3 /* CoreData */,
 				79E9CADF26E4C6DB00CFFFA3 /* Country */,
 				79E9CADC26E4C6DB00CFFFA3 /* Global Model */,
 				79E9CAD926E4C6DB00CFFFA3 /* Helper */,
@@ -253,6 +258,15 @@
 				79E9CAF126E4C6DB00CFFFA3 /* CountryWiseDataModel.swift */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		79E9CB3D26E5E71000CFFFA3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				79E9CBA826E5ECB600CFFFA3 /* CountryOffline+CoreDataProperties copy.swift */,
+				79E9CBA726E5ECB600CFFFA3 /* CountryOffline+CoreDataClass copy.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		ACFAADD417B163112F7EB422 /* Pods */ = {
@@ -523,6 +537,7 @@
 			files = (
 				79E9C93F26E0AF1E00CFFFA3 /* ViewController.swift in Sources */,
 				79E9CAF626E4C6DC00CFFFA3 /* CountryWiseDataVC.swift in Sources */,
+				79E9CBAA26E5ECB600CFFFA3 /* CountryOffline+CoreDataProperties copy.swift in Sources */,
 				79E9CAF426E4C6DC00CFFFA3 /* ServerCommunication.swift in Sources */,
 				79E9CAF826E4C6DC00CFFFA3 /* ChartsViewController.swift in Sources */,
 				79E9CB0026E4C6DC00CFFFA3 /* CountryListCell.swift in Sources */,
@@ -530,6 +545,7 @@
 				79E9CAF326E4C6DC00CFFFA3 /* StorageSingleton.swift in Sources */,
 				79E9C93B26E0AF1E00CFFFA3 /* AppDelegate.swift in Sources */,
 				79E9CAFC26E4C6DC00CFFFA3 /* Country.swift in Sources */,
+				79E9CBA926E5ECB600CFFFA3 /* CountryOffline+CoreDataClass copy.swift in Sources */,
 				79E9C94526E0AF1E00CFFFA3 /* CovidInfo.xcdatamodeld in Sources */,
 				79E9CB0226E4C6DC00CFFFA3 /* CountryDataModel.swift in Sources */,
 				79E9CAF226E4C6DC00CFFFA3 /* Extensions.swift in Sources */,

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 class CountryListVC: UIViewController {
     
@@ -13,7 +14,10 @@ class CountryListVC: UIViewController {
     @IBOutlet weak var searchBar: UISearchBar!
 
     var objCountryModel:CountryDataModel?
-    
+    var headerValues = ["Recently Visited","Country"]
+    var context = CovidInfo.kAppDelegate.persistentContainer.viewContext
+    var arrOfflineList = [CountryOffline]()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         initialSetup()
@@ -56,12 +60,31 @@ class CountryListVC: UIViewController {
 
 
 extension CountryListVC:UITableViewDelegate,UITableViewDataSource{
+   
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 2
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if section == 0 {
+            return getAllOfflineItems()?.count ?? 0
+        }
         return objCountryModel?.arrCountryList.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if indexPath.section == 0 {
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "CountryListCell", for: indexPath) as? CountryListCell,getAllOfflineItems()?.count ?? 0 > indexPath.row else{
+                return UITableViewCell()
+            }
+            let objEmployee = getAllOfflineItems()?[indexPath.row]
+            //let s = flag(country: objEmployee?.ISO2 ?? "")
+            cell.lblCountryName.text = "Country: \(objEmployee?.countryO ?? "")"
+            cell.lblCountryFlag.text = "\("".flag(country: objEmployee?.iso2O ?? "") )"
+            cell.lblSlug.text = "Slug: \(objEmployee?.slugO ?? "")"
+            cell.lblIso2.text = "ISO2: \(objEmployee?.iso2O ?? "")"
+            return cell
+        }
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "CountryListCell", for: indexPath) as? CountryListCell,objCountryModel?.arrCountryList.count ?? 0 > indexPath.row else{
             return UITableViewCell()
         }
@@ -79,16 +102,59 @@ extension CountryListVC:UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let objEmployee = objCountryModel?.arrCountryList[indexPath.row]
-
-        let countryWiseDataVC = CountryWiseDataVC()
-        countryWiseDataVC.objCountry = objEmployee
-        self.present(countryWiseDataVC, animated: true) {
+        if indexPath.section == 0 {
+            let objCountry = getAllOfflineItems()?[indexPath.row]
+            let countryWiseDataVC = CountryWiseDataVC()
+            let objCountryMap = Country()
+            objCountryMap.Country = objCountry?.countryO
+            objCountryMap.Slug = objCountry?.slugO
+            objCountryMap.ISO2 = objCountry?.iso2O
+            countryWiseDataVC.objCountry = objCountryMap
+            self.present(countryWiseDataVC, animated: true) {
+            }
+        }else {
             
+            let objCountry = objCountryModel?.arrCountryList[indexPath.row]
+            var isDuplicateFound = false
+            
+            if getAllOfflineItems()?.count ?? 0 > 0 {
+                for item in getAllOfflineItems()! {
+                    if item.countryO == objCountry?.Country {
+                        isDuplicateFound = true
+                        break
+                    }
+                }
+            }
+            if !isDuplicateFound {
+                let items = NSEntityDescription.insertNewObject(forEntityName: "CountryOffline", into: self.context) as! CountryOffline
+                items.countryO = objCountry?.Country
+                items.slugO = objCountry?.Slug
+                items.iso2O = objCountry?.ISO2
+                do {
+                    
+                    try self.context.save()
+                    DispatchQueue.main.async {
+                        self.tblList.reloadData()
+                    }
+                } catch  {
+                    print("data is not saved")
+                }
+            }
+            
+            let countryWiseDataVC = CountryWiseDataVC()
+            countryWiseDataVC.objCountry = objCountry
+            self.present(countryWiseDataVC, animated: true) {
+            }
         }
-        
     }
     
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 60
+    }
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return headerValues[section]
+    }
     
 }
 
@@ -117,5 +183,27 @@ extension CountryListVC : UISearchBarDelegate {
         DispatchQueue.main.async {
             self.tblList.reloadData()
         }
+    }
+}
+
+extension CountryListVC{
+    func getAllOfflineItems() -> [CountryOffline]?  {
+        var product = [CountryOffline]()
+        do {
+            let fetchRequest = NSFetchRequest<NSManagedObject>(entityName : "CountryOffline")
+            product = try self.context.fetch(fetchRequest) as! [CountryOffline]
+            let sortedStudents = product.sorted { (lhs: CountryOffline, rhs: CountryOffline) -> Bool in
+                return lhs.countryO ?? "" < rhs.countryO ?? ""
+            }
+            return sortedStudents
+        } catch  {
+            print("can not get data")
+        }
+        let sortedStudents = product.sorted { (lhs: CountryOffline, rhs: CountryOffline) -> Bool in
+            return lhs.countryO ?? "" < rhs.countryO ?? ""
+        }
+        
+
+        return sortedStudents
     }
 }
