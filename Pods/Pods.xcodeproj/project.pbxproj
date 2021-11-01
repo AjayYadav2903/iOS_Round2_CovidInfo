@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = Highcharts;
+			productName = Highcharts;
 		};
 /* End PBXAggregateTarget section */
 
@@ -103,7 +104,7 @@
 		0DBBE88028F7260AB396F8616788C647 /* Globals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Globals.swift; path = PieCharts/Util/Globals.swift; sourceTree = "<group>"; };
 		100E2C3C025973019AA598B0AD0A183E /* CGRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRect.swift; path = PieCharts/Extensions/CGRect.swift; sourceTree = "<group>"; };
 		126B070139D58E59DB26ACA32E25F9C2 /* PiePlainTextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PiePlainTextLayer.swift; path = PieCharts/Layer/Impl/PlainText/PiePlainTextLayer.swift; sourceTree = "<group>"; };
-		141C771D00B32327501B56425523D398 /* PieCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PieCharts.framework; path = PieCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		141C771D00B32327501B56425523D398 /* PieCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PieCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1449ECE4721E20ED0A62B197A9636118 /* Pods-CovidInfo-CovidInfoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CovidInfo-CovidInfoUITests-Info.plist"; sourceTree = "<group>"; };
 		14DD2434D1844DE211FF7099BAA0AFF6 /* PieSliceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceModel.swift; path = PieCharts/Model/PieSliceModel.swift; sourceTree = "<group>"; };
 		15E651369E47716538E9A15D82EEA763 /* PieSliceData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceData.swift; path = PieCharts/Model/PieSliceData.swift; sourceTree = "<group>"; };
@@ -131,7 +132,7 @@
 		6CFCB8E35FA1963B2C137CB7935EB73F /* Pods-CovidInfo-CovidInfoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CovidInfo-CovidInfoUITests.modulemap"; sourceTree = "<group>"; };
 		70137DB3F0669DEA1DE9FA7B5EA002FC /* CGSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGSize.swift; path = PieCharts/Extensions/CGSize.swift; sourceTree = "<group>"; };
 		772B8D4D8ECDA2B6DC0FDCFB8708B228 /* Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Int.swift; path = PieCharts/Extensions/Int.swift; sourceTree = "<group>"; };
-		7B23095CBDB3BA7F0633413FF1D00E62 /* Pods_CovidInfo_CovidInfoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CovidInfo_CovidInfoUITests.framework; path = "Pods-CovidInfo-CovidInfoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B23095CBDB3BA7F0633413FF1D00E62 /* Pods_CovidInfo_CovidInfoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CovidInfo_CovidInfoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB0CAFA11EBE7423EC1354B00E8BC2F /* Pods-CovidInfoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CovidInfoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7CEEFA7084348A72C003DB00C937B0BF /* PieChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChart.swift; path = PieCharts/Core/Chart/PieChart.swift; sourceTree = "<group>"; };
 		86482EC0A0F760E462B9BC30B981C1D8 /* Pods-CovidInfoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CovidInfoTests.modulemap"; sourceTree = "<group>"; };
@@ -139,7 +140,7 @@
 		95B34DBEE3828D6CBDF6E0CC17986AA2 /* FloatingPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingPoint.swift; path = PieCharts/Extensions/FloatingPoint.swift; sourceTree = "<group>"; };
 		9A49867D8644FB93947A93A4180C9545 /* Pods-CovidInfoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CovidInfoTests-Info.plist"; sourceTree = "<group>"; };
 		9CB76470E1A5DD963F1C7D5FA9DC8A9C /* PieChartLabelSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartLabelSettings.swift; path = PieCharts/Layer/Impl/Common/PieChartLabelSettings.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A05A47DAAE4284D9F3269607A9D84C86 /* Pods-CovidInfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CovidInfo.modulemap"; sourceTree = "<group>"; };
 		A0BD37F9F958362590B6FCE58A4501AC /* Pods-CovidInfo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CovidInfo-frameworks.sh"; sourceTree = "<group>"; };
 		A773E15359C5FBA2D7455C251DFC43C9 /* Pods-CovidInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CovidInfo-dummy.m"; sourceTree = "<group>"; };
@@ -147,7 +148,7 @@
 		BBF69D794DDCEE177B4A1C9746F62D3F /* PieCharts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PieCharts-umbrella.h"; sourceTree = "<group>"; };
 		C0B1B2FE26C82720CFC392F9CE4BE4D3 /* Pods-CovidInfoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CovidInfoTests-umbrella.h"; sourceTree = "<group>"; };
 		C0B2E6E66377DC627A8A9730F86E3A87 /* PieCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PieCharts.release.xcconfig; sourceTree = "<group>"; };
-		C4A1EE04544A6373EFD8BFCDFFAFCCAA /* Pods_CovidInfoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CovidInfoTests.framework; path = "Pods-CovidInfoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A1EE04544A6373EFD8BFCDFFAFCCAA /* Pods_CovidInfoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CovidInfoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9087D269710A21B483334DB3CB235E9 /* Pods-CovidInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CovidInfo.release.xcconfig"; sourceTree = "<group>"; };
 		CD73E19E3E313B67A124B188ABBDF2B2 /* PieSliceDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieSliceDelegate.swift; path = PieCharts/Core/Slice/PieSliceDelegate.swift; sourceTree = "<group>"; };
 		CE0B60AAFDB6DBB0C1B7C244FFC4CE47 /* PieViewLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieViewLayerAnimator.swift; path = PieCharts/Layer/Impl/View/Anim/PieViewLayerAnimator.swift; sourceTree = "<group>"; };
@@ -155,7 +156,7 @@
 		D54B5AA412F7D0C446CFB700953E5CB3 /* PieChartLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartLayer.swift; path = PieCharts/Layer/PieChartLayer.swift; sourceTree = "<group>"; };
 		D66ED3B4FA97128ABA35E6D097FCB221 /* Pods-CovidInfoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CovidInfoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DC9F74FCA054051F1809899977A38D7A /* AlphaPieViewLayerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaPieViewLayerAnimator.swift; path = PieCharts/Layer/Impl/View/Anim/AlphaPieViewLayerAnimator.swift; sourceTree = "<group>"; };
-		DE8DCAB00062BF7335B62F61D4A5914E /* Pods_CovidInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CovidInfo.framework; path = "Pods-CovidInfo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8DCAB00062BF7335B62F61D4A5914E /* Pods_CovidInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CovidInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFAC17E35C4C855B7DD30B7CFD8A28A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F0BB52811BCFC627A4DC6D80841D67A9 /* Pods-CovidInfo-CovidInfoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CovidInfo-CovidInfoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F2BA1D4780DA96D2D6C45216CF350A59 /* Pods-CovidInfoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CovidInfoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -330,7 +331,6 @@
 				78C15681DA0BB58069D763CE6C7DA6A4 /* Frameworks */,
 				3BBF9300A89B3B279490CCEB8500CF8B /* Support Files */,
 			);
-			name = Highcharts;
 			path = Highcharts;
 			sourceTree = "<group>";
 		};
@@ -372,7 +372,6 @@
 				CE0B60AAFDB6DBB0C1B7C244FFC4CE47 /* PieViewLayerAnimator.swift */,
 				785E29E7E1BE628B238A129C9F7D1022 /* Support Files */,
 			);
-			name = PieCharts;
 			path = PieCharts;
 			sourceTree = "<group>";
 		};
@@ -943,6 +942,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -958,7 +958,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -1043,6 +1045,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1063,6 +1066,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
